@@ -54,8 +54,8 @@ function SignIn() {
           disabled={!canGoNext}>
           <Text style={styles.logInButtonText}>로그인</Text>
         </Pressable>
-        <Pressable onPress={onSubmit} style={styles.logInButton}>
-          <Text style={styles.logInButtonText}>회원가입</Text>
+        <Pressable>
+          <Text>회원가입</Text>
         </Pressable>
       </View>
     </View>
